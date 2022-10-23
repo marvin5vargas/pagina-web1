@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+
+.main-header {
+   background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+   url(./pera.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+   height: 100vh;
+   font-family: 'Dosis', sans-serif;
+   position: relative;
+   overflow: hidden;
+   font-family: 'Tapestry', cursive;
+}
+
+.main-nav {
+display: flex;
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+position: absolute;
+width: 100%;
+z-index: 5;
+}
+
+.logo {
+padding: 25px 30px;
+color: #fff;
+ 
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+    margin-right:  100px;
+}
+
+ul li a {
+display: inline-block;
+padding: 25px 30px;
+font-size: 1.4rem;
+color: #fff; 
+}
+ul li a:hover {
+    background: rgb(41, 104, 223);
+}
+
+.content-header {
+color: #fff;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.content-header h1 {
+    font-size: 8rem;
+}
+
+.content-header p {
+    font-size: 1.5rem;
+    margin: 15px 30px;
+}
+
+.content-header a {
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 15px 20px;
+    background: rgb(41, 104, 223);
+    color: #fff;
+}
+
+.content-header a:hover {
+background: rgba(23, 188, 238, 0.863);
+border: 2px solid #fff;
+padding: 13px 18px;
+}
+
+.linea,
+.linea2 {
+    position: absolute;
+    width: 40px;
+    height: 130%;
+    background: rgba(77, 92, 223, 0.822);
+    right: 10%;
+    top: -50px;
+    transform: rotate(15deg);
+    z-index: 1;
+}
+
+.linea2 {
+    right: 15%;
+}
+
